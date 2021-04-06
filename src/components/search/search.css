@@ -1,0 +1,27 @@
+.l-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem
+}
+
+.l-search-results {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  z-index: 999;
+  background-color: #61dafb;
+}
+
+.c-search-results__link {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: #282c34;
+}
+
+.c-search-results__link:hover {
+  background-color: coral;
+  color: wheat;
+}
